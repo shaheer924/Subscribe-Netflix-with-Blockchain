@@ -1,0 +1,44 @@
+.App{
+  background-image: url(../public/ntflxx.png) ;
+  background-repeat: no-repeat  ;
+  height:100vh;
+  z-index: -1;
+  
+  
+}
+.bg{
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(1px);
+  height:100vh;
+
+}
+.title{
+  font-size:120px;
+  color: rgb(229,9,20);
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+
+}
+
+.Subs_Btn{
+  height:7vh;
+  width: 25vh;
+  color: white;
+  background-color: rgb(229,9,20);;
+  position: absolute;
+  top: 500px;
+  left: 675px;
+  border: none;
+  border-radius:3px;  
+  box-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.head{
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size:70px;
+  text-align: center;
+  margin-left: 30px;
+  left: 390px;
+  top: 90px;
+  
+}
